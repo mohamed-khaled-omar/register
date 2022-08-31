@@ -1,0 +1,44 @@
+<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-uppercase fs-4 ms-1 " href="#">E - <span
+          class="text-primary">Learning</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+   
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="d-flex w-100 px-5 mt-3 mt-md-0">
+          <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search" required>
+          <button class="btn btn-outline-light" type="submit"> <i class="fas fa-search"></i></button>
+        </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center text-md-start">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#project">courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact" (click)="logOut()">Logout</a>
+          </li>
+          <div class="nav-user-icons online m-auto p-1 " onclick="settingsMenuToggle()">
+            <img src="../../../assets/img/profile-pic.png">
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  
+  </nav>
+  
